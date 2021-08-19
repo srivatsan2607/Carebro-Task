@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './SignUp.css'
-import { makeStyles } from '@material-ui/styles'
+import { makeStyles } from '@material-ui/core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeartbeat } from '@fortawesome/free-solid-svg-icons'
 import bg from '../../../../assets/background.png'
@@ -21,13 +21,16 @@ const useStyles = makeStyles( ( theme ) => ( {
 		backgroundSize: 'cover',
 		width: '100%',
 		height: '100%',
+		[ theme.breakpoints.down( "sm" ) ]: {
+			display: 'none'
+		}
 	},
 	signupContainer: {
 		flex: 3,
 		backgroundColor: '#F1E8E6',
 		padding: "20px",
 		overflowX: "hidden !important",
-	}
+	},
 } ) )
 
 const SignUp = ( { loading } ) =>

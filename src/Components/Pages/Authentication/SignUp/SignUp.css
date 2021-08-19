@@ -61,7 +61,8 @@
 }
 
 .user_signup_item>.calendar{
-	width: 60%;
+	width: fit-content;
+	padding: 10px;
 	border-radius: 10px;
 }
 
@@ -83,4 +84,17 @@
 	margin-top: 10px;
 	color: white;
 	font-weight: bold;
+}
+
+.rdrMonthAndYearWrapper{
+	padding: 0 !important;
+	width: inherit !important;
+}
+
+.rdrMonth{
+	width: inherit !important;
+}
+
+.rdrNextPrevButton{
+	margin: 0 !important;
 }
