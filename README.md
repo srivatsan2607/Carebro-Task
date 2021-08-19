@@ -48,27 +48,27 @@ Project includes functionality to Sign up and log in user and they are categoriz
 
 Some of the screenshots from the project are attached below 🤩
 
-![](screenshots/signup)
+![](screenshots/Signup.png)
 
 ---------------------------------
 
-![](screenshots/login)
+![](screenshots/login.png)
 
 ---------------------------------
 
-![](screenshots/Homepage)
+![](screenshots/Homepage.png)
 
 ---------------------------------
 
-![](screenshots/AllUsers)
+![](screenshots/AllUsers.png)
 
 ---------------------------------
 
-![](screenshots/AllProducts)
+![](screenshots/AllProducts.png)
 
 ---------------------------------
 
-![](screenshots/AllOrders)
+![](screenshots/AllOrders.png)
 
 ---------------------------------
 
