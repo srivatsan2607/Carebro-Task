@@ -1,0 +1,86 @@
+.signUp{
+	display: flex;
+	margin: 20px;
+	box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+	height: 90vh;
+	border-radius: 20px;
+}
+
+.title{
+	color: orange;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30% 0;
+	font-size: 28px;
+	text-align: center;
+}
+
+.title span{
+	display: flex;
+}
+
+.title span p{
+	font-size: 25px;
+	padding-right: 10px;
+	font-weight: 700;
+	color: tomato;
+}
+
+.title .phoneLogo{
+	border: 2px solid white;
+	width: fit-content;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.title .faIcon{
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+	color: #c7ca35;
+}
+
+.text{
+	font-size: 50px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.user_signup_item{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.user_signup_item>label{
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+.user_signup_item>.calendar{
+	width: 60%;
+	border-radius: 10px;
+}
+
+.user_signup_input{
+	border: none;
+	width: 250px;
+	height: 30px;
+	padding: 5px;
+	border-bottom: 1px solid gray;
+	border-radius: 10px;
+}
+
+.user_button{
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #ca35c7;
+	cursor: pointer;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+}

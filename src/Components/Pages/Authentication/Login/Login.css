@@ -1,0 +1,78 @@
+.login{
+	background-color: #444E5D;
+	height: 100vh;
+	overflow-x: hidden !important;
+}
+
+.login_container{
+	height: fit-content;
+	width: 60%;
+	padding: 20px;
+	margin: 60px auto;
+	background-color: #4E5765;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.error{
+	color: red;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.login_container>.phoneLogo{
+	border: 2px solid white;
+	width: fit-content;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.login_container>.phoneLogo>span{
+	display: flex;
+	align-items: center;
+}
+
+.login_container>.phoneLogo>span>p{
+	font-size: 20px;
+	font-weight: 700;
+	color: yellow;
+	margin-right: 5px;
+}
+
+.user_login_details{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.user_login_item{
+	display: flex;
+	flex-direction: column;
+}
+
+.user_login_item>label{
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+.user_login_input{
+	border: none;
+	width: fit-content;
+	height: 20px;
+	padding: 20px 30px;
+}
+
+.login_container>.user_button{
+	border: none;
+	padding: 10px;
+	width: 40%;
+	border-radius: 10px;
+	background-color: green;
+	cursor: pointer;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+}

@@ -1,0 +1,67 @@
+.product_list{
+	background-color: white;
+	overflow: hidden;
+	position: relative;
+	margin-left: 200px;
+	padding: 20px;
+}
+
+.dataGrid{
+	overflow: hidden;
+	/* background-color: red; */
+}
+
+.product_list_product{
+	display: flex;
+	align-items: center;
+}
+
+.product_list_product>img{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 10px;
+}
+
+.product_list_buttons{
+	display: flex;
+	align-items: center;
+}
+
+.action_buttons{
+	display: flex;
+	align-items: center;
+}
+
+.product_tile_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.create_button {
+    /* width: fit-content; */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #c7ca35;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.product_list_buttons_edit{
+	margin-right: 20px;
+	border-radius: 10px;
+	border: none;
+	padding: 5px 10px;
+	background-color: #3bb077;
+	color: white;
+	cursor: pointer;
+}
+
+.product_list_buttons_delete{
+	color:red;
+	cursor: pointer;
+}

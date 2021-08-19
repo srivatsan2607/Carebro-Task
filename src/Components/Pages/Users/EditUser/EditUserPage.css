@@ -1,0 +1,118 @@
+.edituser{
+	margin: 0;
+	margin-left: 200px;
+	padding: 20px;
+}
+
+.edituser_title_container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.add_user_button{
+	width: 80px;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #c7ca35;
+	cursor: pointer;
+	color: white;
+	font-size: 16px;
+}
+
+.edituser_container{
+	display: flex;
+	margin-top: 20px;
+}
+
+.show_user{
+	flex: 1;
+	padding: 20px;
+	box-shadow: -2px -1px 5px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: -2px -1px 5px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: -2px -1px 5px 0px rgba(0,0,0,0.35);
+	padding: 20px;
+}
+
+.update_user{
+	flex: 2;
+	padding: 20px;
+	box-shadow: -2px -1px 5px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: -2px -1px 5px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: -2px -1px 5px 0px rgba(0,0,0,0.35);
+	/* margin-left: 20px; */
+}
+
+
+
+.info_button{
+	font-size: 16px !important;
+}
+
+.info_title{
+	margin-left: 10px;
+}
+
+.user_update_img{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	object-fit: cover;
+	margin-right: 20px;
+}
+
+.user_update_form{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.update_title{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.user_update_item{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.user_update_item>label{
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+.user_update_input{
+	border: none;
+	width: 250px;
+	height: 30px;
+	border-bottom: 1px solid gray;
+}
+
+.user_update_picture{
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+}
+
+
+.upload_icon{
+	cursor: pointer;
+}
+
+.user_update_button{
+	border-radius: 5px;
+	border: none;
+	padding: 15px;
+	cursor: pointer;
+	background-color: #c7ca35;
+	color: white;
+	font-weight: 600;
+}
+
+label{
+	color: gray;
+	font-size: 10px;
+}

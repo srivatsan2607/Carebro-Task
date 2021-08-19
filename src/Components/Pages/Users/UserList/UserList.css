@@ -1,0 +1,33 @@
+.users{
+	margin-left: 200px;
+}
+
+.userList{
+	flex:1;
+	box-shadow: -2px -1px 5px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: -2px -1px 5px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: -2px -1px 5px 0px rgba(0,0,0,0.35);
+	padding: 20px;
+	margin: 20px;
+}
+
+.userList_title{
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	border-radius: 20px;
+	width: fit-content;
+	padding: 10px;
+}
+
+
+
+.heading{
+	display: flex;
+	justify-content: space-between;
+}
+
+.heading .create{
+	cursor: pointer;
+}

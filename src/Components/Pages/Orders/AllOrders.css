@@ -1,0 +1,23 @@
+.orders_list{
+	background-color: white;
+	overflow: hidden;
+	position: relative;
+	margin-left: 200px;
+	padding: 20px;
+}
+
+.dataGrid{
+	overflow: hidden;
+	/* background-color: red; */
+}
+
+.orders_title_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.orders_title_container{
+	color: #ff0080;
+}
